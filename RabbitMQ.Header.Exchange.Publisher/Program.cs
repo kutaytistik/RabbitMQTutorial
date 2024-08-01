@@ -3,7 +3,7 @@ using System.Text;
 
 
 ConnectionFactory factory = new ConnectionFactory();
-factory.Uri = new("amqps://diliqtpi:niyo7iEW6vq3_5VZ3B64h0Dx1ekomA-O@fish.rmq.cloudamqp.com/diliqtpi");
+factory.Uri = new("");
 
 using IConnection connection = factory.CreateConnection();
 using IModel channel = connection.CreateModel();
