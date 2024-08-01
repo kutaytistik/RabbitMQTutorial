@@ -5,7 +5,7 @@ using System.Text;
 
 // 1- RabbitMQ sunucusuna bağlantı oluştur
 ConnectionFactory factory = new ConnectionFactory();
-factory.Uri = new("amqps://diliqtpi:niyo7iEW6vq3_5VZ3B64h0Dx1ekomA-O@fish.rmq.cloudamqp.com/diliqtpi");
+factory.Uri = new("");
 
 // 2- Bağlantıyı aktifleştirme ve kanal açma
 using IConnection connection = factory.CreateConnection();
